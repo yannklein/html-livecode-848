@@ -9,26 +9,23 @@
   margin-bottom: 16px;
 }
 
-.card-img {
+.card-image {
   height: 200px;
   background-size: cover;
-  background-position: 100% 50%;
 }
-
 .card-white a {
   opacity: 0;
+  transition: 1s;
 }
 
 .card-white:hover a {
   opacity: 1;
-  /* visibilty */
-  /* display */
-  transition: .3s;
 }
 
 .card-footer {
   display: flex;
   align-items: center;
+  gap: 16px;
 }
 
 .cards {
